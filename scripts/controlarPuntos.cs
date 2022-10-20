@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,13 +7,13 @@ public class controlarPuntos : MonoBehaviour
 {
     public static controlarPuntos instance;
 
-    [SerializeField] private float cantidadPuntos;
-    [SerializeField] private float cantidadPuntosFelicidad;
-    [SerializeField] private float cantidadPuntosSueno;
-    [SerializeField] private float cantidadPuntosEnergia;
-    [SerializeField] private float cantidadPuntosTristeza;
-    [SerializeField] private float cantidadPuntosDesagrado;
-    [SerializeField] private float cantidadPuntosEnojo;
+    [SerializeField] public float cantidadPuntos;
+    [SerializeField] public float cantidadPuntosFelicidad;
+    [SerializeField] public float cantidadPuntosSueno;
+    [SerializeField] public float cantidadPuntosEnergia;
+    [SerializeField] public float cantidadPuntosTristeza;
+    [SerializeField] public float cantidadPuntosDesagrado;
+    [SerializeField] public float cantidadPuntosEnojo;
 
 
     private void Awake()
@@ -62,4 +63,5 @@ public class controlarPuntos : MonoBehaviour
     {
         cantidadPuntosEnojo += puntos;
     }
+
 }

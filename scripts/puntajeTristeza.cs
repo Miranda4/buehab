@@ -2,24 +2,31 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using Unity.VisualScripting;
+using System.Net;
 
 public class puntajeTristeza : MonoBehaviour
 {
     private float puntosTristeza;
     private TextMeshProUGUI tmTristeza;
 
+    private static controlarPuntos controlarPuntos;
+
+
     private void Start()
     {
         tmTristeza = GetComponent<TextMeshProUGUI>();
+        controlarPuntos = FindObjectOfType<controlarPuntos>();
     }
 
     private void Update()
     {
-        tmTristeza.text = "Tristeza: " + puntosTristeza.ToString("0") + "%";
+        tmTristeza.text = "Tristeza: " + controlarPuntos.cantidadPuntosTristeza.ToString("0") + "%";
     }
 
     public void SumarPuntosTristeza(int puntosObtenidos) 
     { 
         puntosTristeza += puntosObtenidos;
     }
+
 }

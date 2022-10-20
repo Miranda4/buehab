@@ -8,14 +8,17 @@ public class puntajeFelicidad : MonoBehaviour
     private int puntosFelicidad;
     private TextMeshProUGUI tmFelicidad;
 
+    private static controlarPuntos controlarPuntos;
+
     private void Start()
     {
         tmFelicidad = GetComponent<TextMeshProUGUI>();
+        controlarPuntos = FindObjectOfType<controlarPuntos>();
     }
 
     private void Update()
     {
-        tmFelicidad.text = "Felicidad: " + puntosFelicidad.ToString("0") + "%";
+        tmFelicidad.text = "Felicidad: " + controlarPuntos.cantidadPuntosFelicidad.ToString("0") + "%";
     }
 
     public void SumarPuntosFelicidad(int puntosObtenidos)
