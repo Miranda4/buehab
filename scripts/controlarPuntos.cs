@@ -12,8 +12,16 @@ public class controlarPuntos : MonoBehaviour
     [SerializeField] public float cantidadPuntosSueno;
     [SerializeField] public float cantidadPuntosEnergia;
     [SerializeField] public float cantidadPuntosTristeza;
-    [SerializeField] public float cantidadPuntosDesagrado;
+    [SerializeField] public float cantidadPuntosSalud;
     [SerializeField] public float cantidadPuntosEnojo;
+
+    //puntos de el usuario
+    [SerializeField] public float felicidad;
+    [SerializeField] public float sueno;
+    [SerializeField] public float energia;
+    [SerializeField] public float tristeza;
+    [SerializeField] public float salud;
+    [SerializeField] public float enojo;
 
 
     private void Awake()
@@ -28,6 +36,33 @@ public class controlarPuntos : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+
+    public void sumarFelicidad(float puntos)
+    {
+        felicidad += puntos;
+    }
+    public void sumarSueno(float puntos)
+    {
+        sueno += puntos;
+    }
+    public void sumarEnergia(float puntos)
+    {
+        energia += puntos;
+    }
+    public void sumarTristeza(float puntos)
+    {
+        tristeza += puntos;
+    }
+    public void sumarSalud(float puntos)
+    {
+        salud += puntos;
+    }
+    public void sumarEnojo(float puntos)
+    {
+        enojo += puntos;
+    }
+
 
     public void restablecerPuntaje()
     {
@@ -55,9 +90,9 @@ public class controlarPuntos : MonoBehaviour
     {
         cantidadPuntosTristeza += puntos;
     }
-    public void sumarPuntosDesagrado(float puntos)
+    public void sumarPuntosSalud(float puntos)
     {
-        cantidadPuntosDesagrado += puntos;
+        cantidadPuntosSalud += puntos;
     }
     public void sumarPuntosEnojo(float puntos)
     {

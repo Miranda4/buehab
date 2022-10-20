@@ -19,8 +19,8 @@ public class objetoPuntos : MonoBehaviour
     [SerializeField] private int cantidadPuntosTristeza;
     [SerializeField] private puntajeTristeza puntajeTristeza;
 
-    [SerializeField] private int cantidadPuntosDesagrado;
-    [SerializeField] private puntajeDesagrado puntajeDesagrado;
+    [SerializeField] private int cantidadPuntosSalud;
+    [SerializeField] private puntajeSalud puntajeSalud;
 
     [SerializeField] private int cantidadPuntosEnojo;
     [SerializeField] private puntajeEnojo puntajeEnojo;
@@ -47,8 +47,8 @@ public class objetoPuntos : MonoBehaviour
             controlarPuntos.instance.sumarPuntosTristeza(cantidadPuntosTristeza);
             puntajeTristeza.SumarPuntosTristeza(cantidadPuntosTristeza);
 
-            controlarPuntos.instance.sumarPuntosDesagrado(cantidadPuntosDesagrado);
-            puntajeDesagrado.SumarPuntosDesagrado(cantidadPuntosDesagrado);
+            controlarPuntos.instance.sumarPuntosSalud(cantidadPuntosSalud);
+            puntajeSalud.SumarPuntosSalud(cantidadPuntosSalud);
 
             controlarPuntos.instance.sumarPuntosEnojo(cantidadPuntosEnojo);
             puntajeEnojo.SumarPuntosEnojo(cantidadPuntosEnojo);
