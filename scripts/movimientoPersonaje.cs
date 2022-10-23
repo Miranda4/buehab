@@ -10,6 +10,20 @@ public class movimientoPersonaje : MonoBehaviour
     [SerializeField] private float fuerzaSaltoPersonaje;
     [SerializeField] private LayerMask layer;
 
+    //llamada de los datos para modificar velocidad y fuerza de salto
+    private static controlarPuntos controlarPuntos;
+    private void Start()
+    {
+        controlarPuntos = FindObjectOfType<controlarPuntos>();
+
+        //controlarPuntos.cantidadPuntosSueno
+        //controlarPuntos.cantidadPuntosFelicidad
+        //controlarPuntos.cantidadPuntosEnojo
+        //controlarPuntos.cantidadPuntosSalud
+        //controlarPuntos.cantidadPuntosEnergia
+        //controlarPuntos.cantidadPuntosTristeza
+    }
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -24,7 +38,7 @@ public class movimientoPersonaje : MonoBehaviour
     private void FixedUpdate()
     {
         float velocidadInput = Input.GetAxisRaw("Horizontal");
-        rb.velocity = new Vector2(velocidadInput * velocidadMovimientoPersonaje, rb.velocity.y);
+        rb.velocity = new Vector2(velocidadInput * (controlarPuntos.cantidadPuntosSueno + velocidadMovimientoPersonaje), rb.velocity.y);
     }
 
     bool enSuelo()
