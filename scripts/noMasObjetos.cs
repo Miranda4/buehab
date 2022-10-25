@@ -12,13 +12,13 @@ public class noMasObjetos : MonoBehaviour
     public GameObject boton1;
     public GameObject boton2;
 
-    // Start is called before the first frame update
     void Start()
     {
-        cantidadObjetos = GameObject.FindGameObjectsWithTag("objeto").Length;
+        //cantidadObjetos = GameObject.FindGameObjectsWithTag("objeto").Length;
     }
     void Update()
     {
+        cantidadObjetos = GameObject.FindGameObjectsWithTag("objeto").Length;
         if (cantidadObjetos == 0)
         {
             Debug.Log("Ya no hay objetos");
