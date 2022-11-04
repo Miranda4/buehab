@@ -6,7 +6,9 @@ using TMPro;
 public class puntaje : MonoBehaviour
 {
     private int puntos;
+
     private TextMeshProUGUI tm;
+
 
     private void Start()
     {

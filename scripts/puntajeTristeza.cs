@@ -28,5 +28,4 @@ public class puntajeTristeza : MonoBehaviour
     { 
         puntosTristeza += puntosObtenidos;
     }
-
 }

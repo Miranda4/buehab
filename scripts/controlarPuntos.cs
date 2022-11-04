@@ -14,15 +14,23 @@ public class controlarPuntos : MonoBehaviour
     [SerializeField] public float cantidadPuntosTristeza;
     [SerializeField] public float cantidadPuntosSalud;
     [SerializeField] public float cantidadPuntosEnojo;
-
-    //puntos de el usuario
-    [SerializeField] public float felicidad;
-    [SerializeField] public float sueno;
-    [SerializeField] public float energia;
-    [SerializeField] public float tristeza;
-    [SerializeField] public float salud;
-    [SerializeField] public float enojo;
-
+    [SerializeField] public float cantidadPuntosIrritabilidad;
+    [SerializeField] public float cantidadPuntosEstres;
+    [SerializeField] public float cantidadPuntosDepresion;
+    [SerializeField] public float cantidadPuntosAnsiedad;
+    [SerializeField] public float cantidadPuntosMemoria;
+    [SerializeField] public float cantidadPuntosVReaccion;
+    [SerializeField] public float cantidadPuntosClaridadMental;
+    [SerializeField] public float cantidadPuntosAlimentacion;
+    [SerializeField] public float cantidadPuntosAtencion;
+    [SerializeField] public float cantidadPuntosCondicion;
+    [SerializeField] public float cantidadPuntosMotivacion;
+    [SerializeField] public float cantidadPuntosEnergiaP;
+    [SerializeField] public float cantidadPuntosFelicidadP;
+    [SerializeField] public float cantidadPuntosAlimentacionP;
+    [SerializeField] public float cantidadPuntosAtencionP;
+    [SerializeField] public float cantidadPuntosCondicionP;
+    [SerializeField] public float cantidadPuntosMotivacionP;
 
     private void Awake()
     {
@@ -37,32 +45,90 @@ public class controlarPuntos : MonoBehaviour
         }
     }
 
-
-    public void sumarFelicidad(float puntos)
+    public void sumarPuntosCondicionP(float puntos)
     {
-        felicidad += puntos;
-    }
-    public void sumarSueno(float puntos)
-    {
-        sueno += puntos;
-    }
-    public void sumarEnergia(float puntos)
-    {
-        energia += puntos;
-    }
-    public void sumarTristeza(float puntos)
-    {
-        tristeza += puntos;
-    }
-    public void sumarSalud(float puntos)
-    {
-        salud += puntos;
-    }
-    public void sumarEnojo(float puntos)
-    {
-        enojo += puntos;
+        cantidadPuntosCondicionP+= puntos;
     }
 
+    public void sumarPuntosAtencionP(float puntos)
+    {
+        cantidadPuntosAtencionP += puntos;
+    }
+
+    public void sumarPuntosAlimentacionP(float puntos)
+    {
+        cantidadPuntosAlimentacionP += puntos;
+    }
+
+    public void sumarPuntosFelicidadP(float puntos)
+    {
+        cantidadPuntosFelicidadP += puntos;
+    }
+
+    public void sumarPuntosEnergiaP(float puntos)
+    {
+        cantidadPuntosEnergiaP += puntos;
+    }
+
+    public void sumarPuntosMotivacionP(float puntos)
+    {
+        cantidadPuntosMotivacionP += puntos;
+    }
+
+    public void sumarPuntosMotivacion(float puntos)
+    {
+        cantidadPuntosMotivacion += puntos;
+    }
+    
+    public void sumarPuntosCondicion(float puntos)
+    {
+        cantidadPuntosCondicion += puntos;
+    }
+    
+    public void sumarPuntosAtencion(float puntos)
+    {
+        cantidadPuntosAtencion += puntos;
+    }
+
+    public void sumarPuntosAlimentacion(float puntos)
+    {
+        cantidadPuntosAlimentacion += puntos;
+    }
+
+    public void sumarPuntosClaridadMental(float puntos)
+    {
+        cantidadPuntosClaridadMental += puntos;
+    }
+
+    public void sumarPuntosVReaccion(float puntos)
+    {
+        cantidadPuntosVReaccion += puntos;
+    }
+
+    public void sumarPuntosMemoria(float puntos)
+    {
+        cantidadPuntosMemoria += puntos;
+    }
+
+    public void sumarPuntosAnsiedad(float puntos)
+    {
+        cantidadPuntosAnsiedad += puntos;
+    }
+
+    public void sumarPuntosDepresion(float puntos)
+    {
+        cantidadPuntosDepresion += puntos;
+    }
+
+    public void sumarPuntosEstres(float puntos)
+    {
+        cantidadPuntosEstres += puntos;
+    }
+
+    public void sumarPuntosIrritabilidad(float puntos)
+    {
+        cantidadPuntosIrritabilidad += puntos;
+    }
 
     public void restablecerPuntaje()
     {
