@@ -32,6 +32,13 @@ public class controlarPuntos : MonoBehaviour
     [SerializeField] public float cantidadPuntosCondicionP;
     [SerializeField] public float cantidadPuntosMotivacionP;
 
+    //datos sueno
+    [SerializeField] public float cantidadSueno;
+    [SerializeField] public float comodidadSueno;
+    [SerializeField] public float luzYRuidoSueno;
+    [SerializeField] public float interrupcionesSueno;
+    [SerializeField] public float energiaSueno;
+
     private void Awake()
     {
         if(controlarPuntos.instance == null)
@@ -44,6 +51,31 @@ public class controlarPuntos : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    //datos sueno
+
+    public void sumarCantidadSueno(float puntos)
+    {
+        cantidadSueno += puntos;
+    }
+    public void SumarComodidadSueno(float puntos)
+    {
+        comodidadSueno += puntos;
+    }
+    public void sumarLuzYRuidoSueno(float puntos)
+    {
+        luzYRuidoSueno += puntos;
+    }
+    public void sumarInterrupcionesSueno(float puntos)
+    {
+        interrupcionesSueno += puntos;
+    }
+    public void sumarEnergiaSueno(float puntos)
+    {
+        energiaSueno += puntos;
+    }
+    // puntos sueno fin
+
 
     public void sumarPuntosCondicionP(float puntos)
     {

@@ -6,14 +6,15 @@ public class colisionActivaDesactiva : MonoBehaviour
 {
     public GameObject jugador;
     public GameObject juego;
-    public GameObject resumen;
+    public GameObject botonReinicio;
 
     void OnTriggerEnter2D (Collider2D collision)
     {
         if(collision.gameObject == jugador)
         {
-            juego.gameObject.SetActive(false);
-            resumen.gameObject.SetActive(true);
+            botonReinicio.gameObject.SetActive(true);
+            Destroy(jugador.gameObject);
+
         }
     }
 }
