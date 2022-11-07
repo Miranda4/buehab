@@ -16,9 +16,9 @@ public class seguimientoEnemigo : MonoBehaviour
 
     void Update()
     {
-        distancia = Vector2.Distance(transform.position, jugador.transform.position);
-        Vector2 direction = jugador.transform.position - transform.position;
+            distancia = Vector2.Distance(transform.position, jugador.transform.position);
+            Vector2 direction = jugador.transform.position - transform.position;
 
-        transform.position = Vector2.MoveTowards(this.transform.position, jugador.transform.position, velocidadEnemigo * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(this.transform.position, jugador.transform.position, velocidadEnemigo * Time.deltaTime);
     }
 }

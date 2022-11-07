@@ -58,6 +58,21 @@ public class controlarPuntos : MonoBehaviour
         cantidadPuntos = 0;
     }
 
+    public void restablecerPuntajeMotivacionP()
+    {
+        cantidadPuntosMotivacionP = 0;
+    }
+
+    public void restablecerPuntajeCondicionP()
+    {
+        cantidadPuntosCondicionP = 0;
+    }
+
+    public void restablecerPuntajeAtencionP()
+    {
+        cantidadPuntosAtencionP= 0;
+    }
+
     public void restablecerPuntajeFelicidadP()
     {
         cantidadPuntosFelicidadP = 0;
@@ -66,6 +81,11 @@ public class controlarPuntos : MonoBehaviour
     public void restablecerPuntajeEnergiaP()
     {
         cantidadPuntosEnergiaP = 0;
+    }
+
+    public void restablecerPuntajeAlimentacionP()
+    {
+        cantidadPuntosAlimentacionP = 0;
     }
 
     //datos sueno
