@@ -52,6 +52,22 @@ public class controlarPuntos : MonoBehaviour
         }
     }
 
+    //restablecer puntajes 
+    public void restablecerPuntaje()
+    {
+        cantidadPuntos = 0;
+    }
+
+    public void restablecerPuntajeFelicidadP()
+    {
+        cantidadPuntosFelicidadP = 0;
+    }
+
+    public void restablecerPuntajeEnergiaP()
+    {
+        cantidadPuntosEnergiaP = 0;
+    }
+
     //datos sueno
 
     public void sumarCantidadSueno(float puntos)
@@ -160,11 +176,6 @@ public class controlarPuntos : MonoBehaviour
     public void sumarPuntosIrritabilidad(float puntos)
     {
         cantidadPuntosIrritabilidad += puntos;
-    }
-
-    public void restablecerPuntaje()
-    {
-        cantidadPuntos = 0;
     }
 
     public void sumarPuntos(float puntos)

@@ -17,7 +17,7 @@ public class puntaje : MonoBehaviour
 
     private void Update()
     {
-        tm.text = "Horas: " + puntos.ToString("0") + " min.";
+        tm.text = "Puntos: " + puntos.ToString("0");
     }
 
     public void SumarPuntos(int puntosObtenidos)

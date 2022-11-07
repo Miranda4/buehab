@@ -14,7 +14,6 @@ public class colisionActivaDesactiva : MonoBehaviour
         {
             botonReinicio.gameObject.SetActive(true);
             Destroy(jugador.gameObject);
-
         }
     }
 }

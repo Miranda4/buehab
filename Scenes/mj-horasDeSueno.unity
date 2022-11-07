@@ -1780,7 +1780,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 238362891}
-  - {fileID: 710458959}
+  - {fileID: 913582819}
   - {fileID: 1720056142}
   - {fileID: 1913790370}
   - {fileID: 1839698892}
@@ -4721,6 +4721,42 @@ MonoBehaviour:
           m_StringArgument: mj-horasDeSueno
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1983054151}
+        m_TargetAssemblyTypeName: controlarPuntos, Assembly-CSharp
+        m_MethodName: restablecerPuntajeEnergiaP
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1983054151}
+        m_TargetAssemblyTypeName: controlarPuntos, Assembly-CSharp
+        m_MethodName: restablecerPuntajeFelicidadP
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1983054151}
+        m_TargetAssemblyTypeName: controlarPuntos, Assembly-CSharp
+        m_MethodName: restablecerPuntaje
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &523055481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6288,7 +6324,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.16, y: 0.16}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -6302,12 +6338,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 710458957}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -762.86, y: -403.66, z: 3.7841656}
-  m_LocalScale: {x: 2.1142, y: 1.8583, z: 1}
+  m_LocalPosition: {x: 0.151, y: 0.08, z: 0}
+  m_LocalScale: {x: 0.4612, y: 0.4374, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 124282020}
-  m_RootOrder: 1
+  m_Father: {fileID: 913582819}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &710458960
 BoxCollider2D:
@@ -6322,18 +6358,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.01872088, y: 0.03194824}
+  m_Offset: {x: 0.01306054, y: -0.005402088}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
+    newSize: {x: 0.16, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.70046616, y: 0.7018159}
+  m_Size: {x: 0.9970637, y: 0.9928906}
   m_EdgeRadius: 0
 --- !u!114 &710458961
 MonoBehaviour:
@@ -7330,6 +7366,38 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &913582818
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 913582819}
+  m_Layer: 0
+  m_Name: enemigos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &913582819
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913582818}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -762.86, y: -403.66, z: 3.7841656}
+  m_LocalScale: {x: 2.1142, y: 1.8583, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 710458959}
+  m_Father: {fileID: 124282020}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &923157122
 GameObject:
   m_ObjectHideFlags: 0
@@ -16446,7 +16514,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Finalizar
+  m_text: continuar =>
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
@@ -17095,8 +17163,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2130218653}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -760.18, y: -406.8, z: 3.7841656}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -760.76, y: -406.81, z: 3.7841656}
+  m_LocalScale: {x: 0.7659, y: 0.6723, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1720056142}
@@ -17196,7 +17264,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5f9936103994ad34691d695060f993e9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2a35c40d8dfad5c4dab90f8999bf71b6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

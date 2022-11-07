@@ -5,10 +5,16 @@ using UnityEngine;
 public class spawner : MonoBehaviour
 {
     public GameObject objeto;
+
     float randX;
+
+    
     Vector2 spawnPosition;
+
     public float tiempoSpawn = 2f;
+
     float sigSpawn = 0.0f;
+
     public float posIni;
     public float posFin;
 
