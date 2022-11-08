@@ -25,6 +25,9 @@ public class controlarPuntos : MonoBehaviour
     [SerializeField] public float cantidadPuntosAtencion;
     [SerializeField] public float cantidadPuntosCondicion;
     [SerializeField] public float cantidadPuntosMotivacion;
+    [SerializeField] public float cantidadPuntosObesidad;
+
+
     [SerializeField] public float cantidadPuntosEnergiaP;
     [SerializeField] public float cantidadPuntosFelicidadP;
     [SerializeField] public float cantidadPuntosAlimentacionP;
@@ -50,6 +53,11 @@ public class controlarPuntos : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    public void sumarCantidadObesidad(float puntos)
+    {
+        cantidadPuntosObesidad += puntos;
     }
 
     //restablecer puntajes 

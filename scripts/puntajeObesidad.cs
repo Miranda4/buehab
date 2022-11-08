@@ -5,17 +5,17 @@ using TMPro;
 using Unity.VisualScripting;
 using System.Net;
 
-public class puntajeEstres : MonoBehaviour
+public class puntajeObesidad : MonoBehaviour
 {
-    private float puntosEstres;
-    private TextMeshProUGUI tmEstres;
+    private float puntosObesidad;
+    private TextMeshProUGUI tmObesidad;
 
     private static controlarPuntos controlarPuntos;
 
 
     private void Start()
     {
-        tmEstres = GetComponent<TextMeshProUGUI>();
+        tmObesidad = GetComponent<TextMeshProUGUI>();
         controlarPuntos = FindObjectOfType<controlarPuntos>();
     }
 
@@ -24,8 +24,8 @@ public class puntajeEstres : MonoBehaviour
         
     }
 
-    public void SumarPuntosEstres(int puntosObtenidos) 
+    public void SumarPuntosObesidad(int puntosObtenidos) 
     { 
-        puntosEstres += puntosObtenidos;
+        puntosObesidad += puntosObtenidos;
     }
 }

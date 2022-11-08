@@ -18,7 +18,7 @@ public class puntajeFelicidad : MonoBehaviour
 
     private void Update()
     {
-        tmFelicidad.text = "Felicidad: " + controlarPuntos.cantidadPuntosFelicidad.ToString("0") + "%";
+        
     }
 
     public void SumarPuntosFelicidad(int puntosObtenidos)

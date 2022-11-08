@@ -21,7 +21,6 @@ public class puntajeDepresion : MonoBehaviour
 
     private void Update()
     {
-        tmDepresion.text = "Depresion: " + controlarPuntos.cantidadPuntosDepresion.ToString("0") + "%";
     }
 
     public void SumarPuntosDepresion(int puntosObtenidos) 

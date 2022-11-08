@@ -18,7 +18,6 @@ public class puntajeSalud : MonoBehaviour
 
     private void Update()
     {
-        tmSalud.text = "Salud: " + controlarPuntos.cantidadPuntosSalud.ToString("0") + "%";
     }
 
     public void SumarPuntosSalud(int puntosObtenidos)

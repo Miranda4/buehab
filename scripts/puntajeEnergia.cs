@@ -18,7 +18,7 @@ public class puntajeEnergia : MonoBehaviour
 
     private void Update()
     {
-        tmEnergia.text = "Energia: " + controlarPuntos.cantidadPuntosEnergia.ToString("0") + "%";
+        
     }
 
     public void SumarPuntosEnergia(int puntosObtenidos)

@@ -991,7 +991,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &124282020
 Transform:
   m_ObjectHideFlags: 0
@@ -13629,6 +13629,7 @@ MonoBehaviour:
   cantidadPuntosAtencion: 0
   cantidadPuntosCondicion: 0
   cantidadPuntosMotivacion: 0
+  cantidadPuntosObesidad: 0
   cantidadPuntosEnergiaP: 0
   cantidadPuntosFelicidadP: 0
   cantidadPuntosAlimentacionP: 0

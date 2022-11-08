@@ -21,7 +21,7 @@ public class puntajeIrritabilidad : MonoBehaviour
 
     private void Update()
     {
-        tmIrritabilidad.text = "Irritabilidad: " + controlarPuntos.cantidadPuntosIrritabilidad.ToString("0") + "%";
+        
     }
 
     public void SumarPuntosIrritabilidad(int puntosObtenidos) 

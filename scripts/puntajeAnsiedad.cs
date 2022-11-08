@@ -21,7 +21,7 @@ public class puntajeAnsiedad : MonoBehaviour
 
     private void Update()
     {
-        tmAnsiedad.text = "Ansiedad: " + controlarPuntos.cantidadPuntosAnsiedad.ToString("0") + "%";
+        
     }
 
     public void SumarPuntosAnsiedad(int puntosObtenidos) 
