@@ -18,7 +18,7 @@ public class puntajeClaridadMental : MonoBehaviour
 
     private void Update()
     {
-        tmClaridadMental.text = "ClaridadMental: " + controlarPuntos.cantidadPuntosClaridadMental.ToString("0") + "%";
+        
     }
 
     public void SumarPuntosClaridadMental(int puntosObtenidos)

@@ -43,21 +43,11 @@ public class puntosUsuario : MonoBehaviour
         
     }
 
-    public void SumarPuntosAlimentacion(int puntosObtenidos)
-    {
-        alimentacion.cantidadPuntosAlimentacion += puntosObtenidos;
-    }
-
+ 
     public void SumarPuntosAnsiedad(int puntosObtenidos)
     {
         ansiedad.cantidadPuntosAnsiedad += puntosObtenidos;
     }
-
-    public void SumarPuntosClaridadMental(int puntosObtenidos)
-    {
-        claridadMental.cantidadPuntosClaridadMental+= puntosObtenidos;
-    }
-
     public void SumarPuntosDepresion(int puntosObtenidos)
     {
         depresion.cantidadPuntosDepresion+= puntosObtenidos;
@@ -68,10 +58,6 @@ public class puntosUsuario : MonoBehaviour
         energia.cantidadPuntosEnergia+= puntosObtenidos;
     }
 
-    public void SumarPuntosEnojo(int puntosObtenidos)
-    {
-        enojo.cantidadPuntosEnojo+= puntosObtenidos;
-    }
 
     public void SumarPuntosEstres(int puntosObtenidos)
     {
@@ -88,27 +74,12 @@ public class puntosUsuario : MonoBehaviour
         irritabilidad.cantidadPuntosIrritabilidad+= puntosObtenidos;
     }
 
-    public void SumarPuntosMemoria(int puntosObtenidos)
-    {
-        memoria.cantidadPuntosMemoria+= puntosObtenidos;
-    }
 
     public void SumarPuntosSalud(int puntosObtenidos)
     {
         salud.cantidadPuntosSalud+= puntosObtenidos;
     }
 
-    public void SumarPuntosSueno(int puntosObtenidos)
-    {
-        sueno.cantidadPuntosSueno+= puntosObtenidos;
-    }
 
-    public void SumarPuntosTristeza(int puntosObtenidos)
-    {
-        tristeza.cantidadPuntosTristeza+= puntosObtenidos;
-    }
-    public void SumarPuntosVReaccion(int puntosObtenidos)
-    {
-        vReaccion.cantidadPuntosVReaccion+= puntosObtenidos;
-    }
+
 }

@@ -18,7 +18,7 @@ public class puntajeAtencion : MonoBehaviour
 
     private void Update()
     {
-        tmAtencion.text = "Atencion: " + controlarPuntos.cantidadPuntosAtencion.ToString("0") + "%";
+        
     }
 
     public void SumarPuntosAtencion(int puntosObtenidos)

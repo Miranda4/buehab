@@ -18,7 +18,7 @@ public class puntajeVReaccion : MonoBehaviour
 
     private void Update()
     {
-        tmVReaccion.text = "V. Reaccion: " + controlarPuntos.cantidadPuntosVReaccion.ToString("0") + "%";
+
     }
 
     public void SumarPuntosVReaccion(int puntosObtenidos)

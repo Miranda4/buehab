@@ -18,7 +18,7 @@ public class puntajeSueno : MonoBehaviour
 
     private void Update()
     {
-        tmSueno.text = "Sueño: " + controlarPuntos.cantidadPuntosSueno.ToString("0") + "%";
+        
     }
 
     public void SumarPuntosSueno(int puntosObtenidos)

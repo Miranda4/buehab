@@ -15,7 +15,6 @@ public class puntajeObesidad : MonoBehaviour
 
     private void Start()
     {
-        tmObesidad = GetComponent<TextMeshProUGUI>();
         controlarPuntos = FindObjectOfType<controlarPuntos>();
     }
 

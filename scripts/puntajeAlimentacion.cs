@@ -18,7 +18,7 @@ public class puntajeAlimentacion : MonoBehaviour
 
     private void Update()
     {
-        tmAlimentacion.text = "Alimentacion: " + controlarPuntos.cantidadPuntosAlimentacion.ToString("0") + "%";
+        
     }
 
     public void SumarPuntosAlimentacion(int puntosObtenidos)

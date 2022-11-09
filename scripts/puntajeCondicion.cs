@@ -18,7 +18,7 @@ public class puntajeCondicion : MonoBehaviour
 
     private void Update()
     {
-        tmCondicion.text = "Condicion: " + controlarPuntos.cantidadPuntosCondicion.ToString("0") + "%";
+        
     }
 
     public void SumarPuntosCondicion(int puntosObtenidos)

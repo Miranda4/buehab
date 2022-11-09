@@ -601,6 +601,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1303512655}
+        m_TargetAssemblyTypeName: DatabaseAccess, Assembly-CSharp
+        m_MethodName: enviarDatos
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: actividad
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 911542270}
+        m_TargetAssemblyTypeName: reiniciarPuntosUsuario, Assembly-CSharp
+        m_MethodName: reiniciarPuntajeUsuario
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &31037268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2785,18 +2809,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1660118989}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: escenaFinal
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 1983054151}
         m_TargetAssemblyTypeName: controlarPuntos, Assembly-CSharp
         m_MethodName: sumarPuntosEstres
@@ -2843,6 +2855,42 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 20
           m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1303512655}
+        m_TargetAssemblyTypeName: DatabaseAccess, Assembly-CSharp
+        m_MethodName: enviarDatos
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: actividad
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 911542270}
+        m_TargetAssemblyTypeName: reiniciarPuntosUsuario, Assembly-CSharp
+        m_MethodName: reiniciarPuntajeUsuario
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1660118989}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: escenaFinal
           m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &263708802
@@ -4185,18 +4233,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1660118989}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: escenaFinal
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 1983054151}
         m_TargetAssemblyTypeName: controlarPuntos, Assembly-CSharp
         m_MethodName: sumarPuntosEstres
@@ -4243,6 +4279,42 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 30
           m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1303512655}
+        m_TargetAssemblyTypeName: DatabaseAccess, Assembly-CSharp
+        m_MethodName: enviarDatos
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: actividad
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 911542270}
+        m_TargetAssemblyTypeName: reiniciarPuntosUsuario, Assembly-CSharp
+        m_MethodName: reiniciarPuntajeUsuario
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1660118989}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: escenaFinal
           m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &420290566
@@ -6039,18 +6111,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2095773100}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: escenaFinal
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 1983054151}
         m_TargetAssemblyTypeName: controlarPuntos, Assembly-CSharp
         m_MethodName: sumarPuntosEstres
@@ -6097,6 +6157,42 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: -10
           m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1303512655}
+        m_TargetAssemblyTypeName: DatabaseAccess, Assembly-CSharp
+        m_MethodName: enviarDatos
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: actividad
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 911542270}
+        m_TargetAssemblyTypeName: reiniciarPuntosUsuario, Assembly-CSharp
+        m_MethodName: reiniciarPuntajeUsuario
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 2095773100}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: escenaFinal
           m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &624395902
@@ -8045,18 +8141,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2095773100}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: escenaFinal
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 1983054151}
         m_TargetAssemblyTypeName: controlarPuntos, Assembly-CSharp
         m_MethodName: sumarPuntosEstres
@@ -8103,6 +8187,42 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 20
           m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1303512655}
+        m_TargetAssemblyTypeName: DatabaseAccess, Assembly-CSharp
+        m_MethodName: enviarDatos
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: actividad
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 911542270}
+        m_TargetAssemblyTypeName: reiniciarPuntosUsuario, Assembly-CSharp
+        m_MethodName: reiniciarPuntajeUsuario
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 2095773100}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: escenaFinal
           m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &908014715
@@ -8276,6 +8396,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &911542269
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 911542271}
+  - component: {fileID: 911542270}
+  m_Layer: 0
+  m_Name: reinicioPuntosUsuario
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &911542270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911542269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a0f97f4e0ea6e642b755df631229a6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &911542271
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911542269}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &932010840
 GameObject:
   m_ObjectHideFlags: 3
@@ -9000,18 +9164,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2095773100}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: escenaFinal
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 1983054151}
         m_TargetAssemblyTypeName: controlarPuntos, Assembly-CSharp
         m_MethodName: sumarPuntosEstres
@@ -9058,6 +9210,42 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 30
           m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1303512655}
+        m_TargetAssemblyTypeName: DatabaseAccess, Assembly-CSharp
+        m_MethodName: enviarDatos
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: actividad
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 911542270}
+        m_TargetAssemblyTypeName: reiniciarPuntosUsuario, Assembly-CSharp
+        m_MethodName: reiniciarPuntajeUsuario
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 2095773100}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: escenaFinal
           m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &963104161
@@ -9717,18 +9905,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2095773100}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: escenaFinal
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 1983054151}
         m_TargetAssemblyTypeName: controlarPuntos, Assembly-CSharp
         m_MethodName: sumarPuntosEstres
@@ -9775,6 +9951,42 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1303512655}
+        m_TargetAssemblyTypeName: DatabaseAccess, Assembly-CSharp
+        m_MethodName: enviarDatos
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: actividad
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 911542270}
+        m_TargetAssemblyTypeName: reiniciarPuntosUsuario, Assembly-CSharp
+        m_MethodName: reiniciarPuntajeUsuario
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 2095773100}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: escenaFinal
           m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1018442342
@@ -10707,18 +10919,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1660118989}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: escenaFinal
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 1983054151}
         m_TargetAssemblyTypeName: controlarPuntos, Assembly-CSharp
         m_MethodName: sumarPuntosEstres
@@ -10765,6 +10965,42 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: -15
           m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1303512655}
+        m_TargetAssemblyTypeName: DatabaseAccess, Assembly-CSharp
+        m_MethodName: enviarDatos
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: actividad
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 911542270}
+        m_TargetAssemblyTypeName: reiniciarPuntosUsuario, Assembly-CSharp
+        m_MethodName: reiniciarPuntajeUsuario
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1660118989}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: escenaFinal
           m_BoolArgument: 1
         m_CallState: 2
 --- !u!222 &1115305055
@@ -11158,18 +11394,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 578670620}
-        m_TargetAssemblyTypeName: cambiarEscena, Assembly-CSharp
-        m_MethodName: nivel
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: escenaFinal
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 1983054151}
         m_TargetAssemblyTypeName: controlarPuntos, Assembly-CSharp
         m_MethodName: sumarPuntosEnergia
@@ -11228,6 +11452,42 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: -40
           m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1303512655}
+        m_TargetAssemblyTypeName: DatabaseAccess, Assembly-CSharp
+        m_MethodName: enviarDatos
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: actividad
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 911542270}
+        m_TargetAssemblyTypeName: reiniciarPuntosUsuario, Assembly-CSharp
+        m_MethodName: reiniciarPuntajeUsuario
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 578670620}
+        m_TargetAssemblyTypeName: cambiarEscena, Assembly-CSharp
+        m_MethodName: nivel
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: escenaFinal
           m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1214753001
@@ -11594,18 +11854,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1660118989}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: escenaFinal
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 1983054151}
         m_TargetAssemblyTypeName: controlarPuntos, Assembly-CSharp
         m_MethodName: sumarPuntosEstres
@@ -11652,6 +11900,42 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: -30
           m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1303512655}
+        m_TargetAssemblyTypeName: DatabaseAccess, Assembly-CSharp
+        m_MethodName: enviarDatos
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: actividad
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 911542270}
+        m_TargetAssemblyTypeName: reiniciarPuntosUsuario, Assembly-CSharp
+        m_MethodName: reiniciarPuntajeUsuario
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1660118989}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: escenaFinal
           m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1223396415
@@ -12532,6 +12816,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1303512654
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1303512656}
+  - component: {fileID: 1303512655}
+  m_Layer: 0
+  m_Name: enviarPuntos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1303512655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303512654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 725a5abb5d29bfc4ca81595d4848a3ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1303512656
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303512654}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1309451410
 GameObject:
   m_ObjectHideFlags: 0
@@ -12628,18 +12956,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1660118989}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: escenaFinal
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 1983054151}
         m_TargetAssemblyTypeName: controlarPuntos, Assembly-CSharp
         m_MethodName: sumarPuntosEstres
@@ -12686,6 +13002,42 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 30
           m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1303512655}
+        m_TargetAssemblyTypeName: DatabaseAccess, Assembly-CSharp
+        m_MethodName: enviarDatos
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: actividad
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 911542270}
+        m_TargetAssemblyTypeName: reiniciarPuntosUsuario, Assembly-CSharp
+        m_MethodName: reiniciarPuntajeUsuario
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1660118989}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: escenaFinal
           m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1309451413
@@ -17170,18 +17522,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 345172615}
-        m_TargetAssemblyTypeName: cambiarEscena, Assembly-CSharp
-        m_MethodName: nivel
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: escenaFinal
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 1983054151}
         m_TargetAssemblyTypeName: controlarPuntos, Assembly-CSharp
         m_MethodName: sumarPuntosEnergia
@@ -17240,6 +17580,42 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: -15
           m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1303512655}
+        m_TargetAssemblyTypeName: DatabaseAccess, Assembly-CSharp
+        m_MethodName: enviarDatos
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: actividad
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 911542270}
+        m_TargetAssemblyTypeName: reiniciarPuntosUsuario, Assembly-CSharp
+        m_MethodName: reiniciarPuntajeUsuario
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 345172615}
+        m_TargetAssemblyTypeName: cambiarEscena, Assembly-CSharp
+        m_MethodName: nivel
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: escenaFinal
           m_BoolArgument: 1
         m_CallState: 2
 --- !u!222 &1705383926
@@ -17635,18 +18011,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 345172615}
-        m_TargetAssemblyTypeName: cambiarEscena, Assembly-CSharp
-        m_MethodName: nivel
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: escenaFinal
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 1983054151}
         m_TargetAssemblyTypeName: controlarPuntos, Assembly-CSharp
         m_MethodName: sumarPuntosEnergia
@@ -17705,6 +18069,42 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 10
           m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1303512655}
+        m_TargetAssemblyTypeName: DatabaseAccess, Assembly-CSharp
+        m_MethodName: enviarDatos
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: actividad
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 911542270}
+        m_TargetAssemblyTypeName: reiniciarPuntosUsuario, Assembly-CSharp
+        m_MethodName: reiniciarPuntajeUsuario
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 345172615}
+        m_TargetAssemblyTypeName: cambiarEscena, Assembly-CSharp
+        m_MethodName: nivel
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: escenaFinal
           m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1735792238
@@ -19934,36 +20334,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b9f189550bff3c4ca7c6c2ec621ef5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cantidadPuntos: 0
-  cantidadPuntosFelicidad: 0
-  cantidadPuntosSueno: 0
-  cantidadPuntosEnergia: 0
-  cantidadPuntosTristeza: 0
-  cantidadPuntosSalud: 0
-  cantidadPuntosEnojo: 0
-  cantidadPuntosIrritabilidad: 0
-  cantidadPuntosEstres: 0
-  cantidadPuntosDepresion: 0
-  cantidadPuntosAnsiedad: 0
-  cantidadPuntosMemoria: 0
-  cantidadPuntosVReaccion: 0
-  cantidadPuntosClaridadMental: 0
-  cantidadPuntosAlimentacion: 0
-  cantidadPuntosAtencion: 0
-  cantidadPuntosCondicion: 0
-  cantidadPuntosMotivacion: 0
-  cantidadPuntosObesidad: 0
   cantidadPuntosEnergiaP: 0
   cantidadPuntosFelicidadP: 0
   cantidadPuntosAlimentacionP: 0
   cantidadPuntosAtencionP: 0
   cantidadPuntosCondicionP: 0
   cantidadPuntosMotivacionP: 0
-  cantidadSueno: 0
-  comodidadSueno: 0
-  luzYRuidoSueno: 0
-  interrupcionesSueno: 0
-  energiaSueno: 0
+  cantidadPuntos: 0
+  cantidadPuntosIrritabilidad: 0
+  cantidadPuntosSalud: 0
+  cantidadPuntosDepresion: 0
+  cantidadPuntosAnsiedad: 0
+  cantidadPuntosEstres: 0
+  cantidadPuntosEnergia: 0
+  cantidadPuntosObesidad: 0
+  cantidadPuntosFelicidad: 0
 --- !u!4 &1983054152
 Transform:
   m_ObjectHideFlags: 0

@@ -18,7 +18,7 @@ public class puntajeEnojo : MonoBehaviour
 
     private void Update()
     {
-        tmEnojo.text = "Enojo: " + controlarPuntos.cantidadPuntosEnojo.ToString("0") + "%";
+        
     }
 
     public void SumarPuntosEnojo(int puntosObtenidos)

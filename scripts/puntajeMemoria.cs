@@ -21,7 +21,7 @@ public class puntajeMemoria : MonoBehaviour
 
     private void Update()
     {
-        tmMemoria.text = "Memoria: " + controlarPuntos.cantidadPuntosMemoria.ToString("0") + "%";
+        
     }
 
     public void SumarPuntosMemoria(int puntosObtenidos) 

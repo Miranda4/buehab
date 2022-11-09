@@ -18,7 +18,7 @@ public class puntajeMotivacion : MonoBehaviour
 
     private void Update()
     {
-        tmMotivacion.text = "Motivacion: " + controlarPuntos.cantidadPuntosMotivacion.ToString("0") + "%";
+
     }
 
     public void SumarPuntosMotivacion(int puntosObtenidos)
